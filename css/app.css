@@ -1,0 +1,64 @@
+:root {
+  --default-height: 6rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  font-family: 'Fira Sans';
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+}
+
+#container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+#start {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: pink;
+}
+
+#snap {
+  background-color: blue;
+}
+
+#preview {
+  padding: 0;
+}
+
+#vid {
+  width: 100%;
+  margin: 0;
+}
+
+#shutter {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+.imagePreview {
+  width: 30%;
+}
